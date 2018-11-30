@@ -1,0 +1,14 @@
+//
+//  City+CoreDataClass.m
+//  CoreDataDemo
+//
+//  Created by xygj on 2018/10/9.
+//  Copyright © 2018 xygj. All rights reserved.
+//
+//
+
+#import "City+CoreDataClass.h"
+
+@implementation City
+
+@end
