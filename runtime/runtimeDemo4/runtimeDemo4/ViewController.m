@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "YAPerson.h"
+#import <objc/runtime.h>
 
 @interface ViewController ()
 
@@ -28,6 +29,8 @@
     NSLog(@"%d", [NSObject isMemberOfClass:[NSObject class]]); // 0
     NSLog(@"%d", [YAPerson isKindOfClass:[YAPerson class]]); // 0
     NSLog(@"%d", [YAPerson isMemberOfClass:[YAPerson class]]); // 0
+    
+    NSLog(@"%@", object_getClass([NSObject class]));
 }
 
 

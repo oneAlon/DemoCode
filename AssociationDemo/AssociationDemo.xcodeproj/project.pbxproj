@@ -13,6 +13,7 @@
 		883D9EBF21B13A1B00F080BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 883D9EBE21B13A1B00F080BC /* Assets.xcassets */; };
 		883D9EC221B13A1B00F080BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 883D9EC021B13A1B00F080BC /* LaunchScreen.storyboard */; };
 		883D9EC521B13A1B00F080BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 883D9EC421B13A1B00F080BC /* main.m */; };
+		883D9ECD21B13ADE00F080BC /* NSObject+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 883D9ECC21B13ADE00F080BC /* NSObject+Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,9 @@
 		883D9EC121B13A1B00F080BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		883D9EC321B13A1B00F080BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		883D9EC421B13A1B00F080BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		883D9ECB21B13ADE00F080BC /* NSObject+Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Test.h"; sourceTree = "<group>"; };
+		883D9ECC21B13ADE00F080BC /* NSObject+Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Test.m"; sourceTree = "<group>"; };
+		883D9ECE21B13C6100F080BC /* NSObject+Test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "NSObject+Test.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,9 @@
 				883D9EB621B13A1B00F080BC /* AppDelegate.m */,
 				883D9EB821B13A1B00F080BC /* ViewController.h */,
 				883D9EB921B13A1B00F080BC /* ViewController.m */,
+				883D9ECB21B13ADE00F080BC /* NSObject+Test.h */,
+				883D9ECC21B13ADE00F080BC /* NSObject+Test.m */,
+				883D9ECE21B13C6100F080BC /* NSObject+Test.cpp */,
 				883D9EBB21B13A1B00F080BC /* Main.storyboard */,
 				883D9EBE21B13A1B00F080BC /* Assets.xcassets */,
 				883D9EC021B13A1B00F080BC /* LaunchScreen.storyboard */,
@@ -142,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				883D9EBA21B13A1B00F080BC /* ViewController.m in Sources */,
+				883D9ECD21B13ADE00F080BC /* NSObject+Test.m in Sources */,
 				883D9EC521B13A1B00F080BC /* main.m in Sources */,
 				883D9EB721B13A1B00F080BC /* AppDelegate.m in Sources */,
 			);
